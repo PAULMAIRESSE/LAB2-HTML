@@ -1,8 +1,8 @@
 <!DOCTYPE html> <!-- Version 5 de HTML-->
-<html lang="fr"> <!-- Précision de la langue pour le navigateur-->
+<html lang="en"> <!-- Précision de la langue pour le navigateur-->
 
 <head> <!-- Entête du document HTML -->
-    <title></title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
+    <title>Contact Us</title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
     <meta charset="UTF-8"> <!-- précise l'encodage des caractère à UTF-8-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Permet de définir la largeur de la page à l'échelle de l'écran du visiteur -->
@@ -10,15 +10,15 @@
 
 <body><!-- Début du code de la page web -->
     <header>
-        <image src="assets/images/su_banner.gif">
-            <nav>
-                <ul id="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Our Services</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
+        <img src="assets/images/su_banner.gif" alt="banner of the website">
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
     <section>
         <h2>Contact Us:</h2>
@@ -26,49 +26,35 @@
         <form method="post" onsubmit="return false;">
             <fieldset>
                 <legend>Personal informations:</legend>
-                <!-- FirstName:[RequiredField+maximumcharacters=25] o LastName:[RequiredField+maximumcharacters=25]
-o Email: [Required Field + email input type + maximum characters = 35] -->
                 <label for="firstname">First name</label>
-                <input type="text" name="firstname" maxlength="25" required><br />
+                <input type="text" name="firstname" id="firstname" maxlength="25" required><br>
                 <label for="lastname">Last name</label>
-                <input type="text" name="lastname" maxlength="25" required><br />
+                <input type="text" name="lastname" id="lastname" maxlength="25" required><br>
                 <label for="email">Email</label>
-                <input type="email" name="email" maxlength="35" required><br />
-                <!-- checkbox for music genre that you like -->
-                <label for="music">Please select the music genre(s) that you like</label><br />
-                <input type="checkbox" name="music" value="Classic">Classic<br />
-                <input type="checkbox" name="music" value="Jazz">Jazz<br />
-                <input type="checkbox" name="music" value="Blues">Blues<br />
-                <input type="checkbox" name="music" value="Instrumental">Instrumental<br />
+                <input type="email" name="email" id="email" maxlength="35" required><br>
+                <label>Please select the music genre(s) that you like</label><br>
+                <input type="checkbox" name="music" value="Classic">Classic<br>
+                <input type="checkbox" name="music" value="Jazz">Jazz<br>
+                <input type="checkbox" name="music" value="Blues">Blues<br>
+                <input type="checkbox" name="music" value="Instrumental">Instrumental<br>
             </fieldset>
             <fieldset>
                 <legend>Your message:</legend>
-                <!-- How did you heard about us
-                    The <options> of <select> element:
- Our website  Friends
- TV Adv.
- Other
-                -->
                 <label for="message">How did you heard about us</label>
-                <select name="how">
+                <select name="how" id="message">
                     <option value="website">Our website</option>
                     <option value="friends">Friends</option>
                     <option value="tv">TV Adv.</option>
                     <option value="other">Other</option>
-                </select><br />
-                <!-- radio would you recommend us to your friends?
-                The “Yes” option must be selected by default -->
-                <label for="recommend">Would you recommend us to your friends?</label><br />
+                </select><br>
+                <label>Would you recommend us to your friends?</label><br>
                 <input type="radio" name="recommend" value="yes" checked>Yes
                 <input type="radio" name="recommend" value="no">No
-                <input type="radio" name="recommend" value="maybe">Maybe<br />
-                <!-- Your request text area -->
-                <label for="request">Your request</label><br />
-                <textarea name="request" rows="5" cols="50"></textarea><br />
-                <!-- sign me up for email updates -->
+                <input type="radio" name="recommend" value="maybe">Maybe<br>
+                <label for="request">Your request</label><br>
+                <textarea name="request" id="request" rows="5" cols="50"></textarea><br>
                 <label for="updates">Sign me up for email updates</label>
-                <input type="checkbox" name="updates" value="yes"><br />
-                <!-- submit button -->
+                <input type="checkbox" id="updates" name="updates" value="yes"><br>
                 <input type="submit" class="submit" value="Submit">
             </fieldset>
         </form>
