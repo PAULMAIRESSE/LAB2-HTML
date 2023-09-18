@@ -1,0 +1,160 @@
+/* #322119
+#FFF6E6 */
+* {
+    margin: 0;
+}
+
+address,
+article,
+aside,
+div,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+body {
+    color: #322119;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("../assets/images/dark-wood.jpg");
+}
+
+.container {
+    width: 950px;
+    margin: 5px auto;
+    background-color: #fff6e6;
+}
+
+.content {
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+header,
+nav,
+footer {
+    background-color: #cd7705;
+    color: #ffecbc;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+nav ul li a:link {
+    color: #ffecbc;
+}
+
+nav ul li a:visited {
+    color: #ffecbc;
+}
+
+nav ul li a:hover {
+    color: #322119;
+}
+
+nav ul li a:active {
+    color: #322119;
+}
+
+a {
+    color: #322119;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    color: #842d37;
+}
+
+.img-centre {
+    display: block;
+    margin: 5px auto;
+    padding: 2px;
+}
+
+audio,
+video {
+    display: block;
+    margin: 10px auto;
+}
+
+table {
+    width: 800px;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #322119;
+    padding: 2px 5px;
+    background-color: #f4d9b6;
+}
+
+th,
+tfoot td {
+    text-transform: uppercase;
+    background-color: #ad763d;
+    color: #ffecbc;
+}
+
+dt {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0;
+}
+
+iframe {
+    display: block;
+    margin: 10px auto;
+}
+
+fieldset {
+    width: 500px;
+    margin: 20px auto;
+    border: 1px solid #b4a183;
+    background-color: #f3d9b6;
+}
+
+legend {
+    font-style: italic;
+    color: #322119;
+    background-color: #c08c4d;
+    margin: 0 10px;
+    padding: 0 5px;
+    border: 1px solid #b4a183;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    border: 1px solid #c08c4d;
+    padding: 5px;
+    background-color: #c08c4d;
+    color: #322119;
+}
+
+input[type="submit"]:hover {
+    color: #ffecbc;
+    background-color: #cd7705;
+    cursor: pointer;
+}
