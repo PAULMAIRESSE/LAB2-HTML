@@ -1,9 +1,9 @@
-/* #322119
-#FFF6E6 */
+/* Q#: All the elements have margin of 0 from the top, bottom, left, and right */
 * {
     margin: 0;
 }
 
+/* Q#: All the HTML5 new elements that you have used in your code should be displayed as block-level elements. */
 address,
 article,
 aside,
@@ -17,6 +17,7 @@ section {
     display: block;
 }
 
+/* Q#: The <body> element has to be styled with: Any colour, A background image, The font family, Margin 0 for all four side */
 body {
     color: #322119;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -24,17 +25,20 @@ body {
     background-image: url("../assets/images/dark-wood.jpg");
 }
 
+/* Q#: The <main> element has to be styled with: A width of 950px, A margin of 5px from the top and bottom, Center it horizontally, A background colour */
 .container {
     width: 950px;
     margin: 5px auto;
     background-color: #fff6e6;
 }
 
+/* Q#: The <content> class has to be styled with: A line height of 1.4em, A padding of 10px */
 .content {
     line-height: 1.4em;
     padding: 10px;
 }
 
+/* Q#: The <header>,<nav>,<footer> elements has to be styled with: A background colour, A text colour */
 header,
 nav,
 footer {
@@ -42,17 +46,20 @@ footer {
     color: #ffecbc;
 }
 
+/* Q#: The <ul> element form the navigation bar has to be styled with: A margin of 0, A padding of 5px */
 nav ul {
     margin: 0;
     padding: 5px;
 }
 
+/* Q#: The <li> element form the navigation bar has to be styled with: Display inline-block, A margin of 0 from the right, Text transform uppercase */
 nav ul li {
     display: inline-block;
     margin-right: 40px;
     text-transform: uppercase;
 }
 
+/* Q#: The colour form the <a> element of the navigation bar should be changed when the state change */
 nav ul li a:link {
     color: #ffecbc;
 }
@@ -69,11 +76,13 @@ nav ul li a:active {
     color: #322119;
 }
 
+/* Q#: The <a> element has to be styled with: A text decoration of none, A colour */
 a {
     color: #322119;
     text-decoration: none;
 }
 
+/* Q#: The <h1>, <h2>, <h3> elements has to be styled with: A margin of 10px, Text transform uppercase, A colour */
 h1,
 h2,
 h3 {
@@ -82,24 +91,28 @@ h3 {
     color: #842d37;
 }
 
+/* Q#: The <img-centre> class has to be styled with: Display block, Margin 5px from the top and bottom, Center horizontally, Padding 2px */
 .img-centre {
     display: block;
     margin: 5px auto;
     padding: 2px;
 }
 
+/* Q#: The <audio>, <video> elements has to be styled with: Display block, Margin 10px from the top and bottom, Center horizontally */
 audio,
 video {
     display: block;
     margin: 10px auto;
 }
 
+/* Q#: The <table> element has to be styled with: A width of 800px, A margin of 10px from the top and bottom, Center horizontally, Border must be collapsed */
 table {
     width: 800px;
     margin: 10px auto;
     border-collapse: collapse;
 }
 
+/* Q#: The <th>, <td> elements has to be styled with: A background colour, A padding of 2px 5px, A border with any settings */
 td,
 th {
     border: 1px solid #322119;
@@ -107,6 +120,7 @@ th {
     background-color: #f4d9b6;
 }
 
+/* Q#: The <th> and <td> from the table footer has to be styled with: Text transform uppercase, A background colour, A colour */
 th,
 tfoot td {
     text-transform: uppercase;
@@ -114,28 +128,33 @@ tfoot td {
     color: #ffecbc;
 }
 
+/* Q#: The <dt> element has to be styled with: A font weight of bold */
 dt {
     font-weight: bold;
 }
 
+/* Q#: The <footer> element has to be styled with: A font size of 80%, Text align center, Padding 1px from the top and bottom */
 footer {
     font-size: 80%;
     text-align: center;
     padding: 1px 0;
 }
 
+/* Q#: The <iframe> element has to be styled with: Margin 10px from the top and bottom, Center horizontally */
 iframe {
     display: block;
     margin: 10px auto;
 }
 
+/* Q#: The <fieldset> element has to be styled with: A width of 500px, A margin of 20px from the top and bottom, Center horizontally, A border with any settings, A background colour */
 fieldset {
     width: 500px;
     margin: 20px auto;
-    border: 1px solid #b4a183;
+    border: 2px solid #b4a183;
     background-color: #f3d9b6;
 }
 
+/* Q#: The <legend> element has to be styled with: A font style of italic, A colour, A background colour, A margin of 0 10px, A padding of 0 5px, A border with any settings and a border radius */
 legend {
     font-style: italic;
     color: #322119;
@@ -143,9 +162,10 @@ legend {
     margin: 0 10px;
     padding: 0 5px;
     border: 1px solid #b4a183;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
+/* Q#: The <input> element an attribute named “type” with value of “submit” has to be styled with: A padding of 5px, A border with any settings, A background colour, A colour */
 input[type="submit"] {
     border: 1px solid #c08c4d;
     padding: 5px;
@@ -153,6 +173,7 @@ input[type="submit"] {
     color: #322119;
 }
 
+/* Q#: The <input> element an attribute named “type” with value of “submit” has to be styled when hovered with: An other colour, An other background colour, A cursor pointer */
 input[type="submit"]:hover {
     color: #ffecbc;
     background-color: #cd7705;
