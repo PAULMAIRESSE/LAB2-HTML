@@ -1,3 +1,2 @@
 # LAB2-HTML
-
-- [live demo here](https://paulmairesse.github.io/LAB2-HTML/index.html)
+- <a href="https://paulmairesse.github.io/LAB2-HTML/index.html" target="_blank">live demo here</a>
